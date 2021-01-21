@@ -4,7 +4,7 @@ public class Modulos {
 	private String nombre;
 	private String codigo;
 	private int numHoras;
-	
+
 	public Modulos(String nombre, String codigo, int numHoras) {
 		this.nombre = nombre;
 		this.codigo = codigo;
@@ -39,10 +39,5 @@ public class Modulos {
 	public String toString() {
 		return "Modulos [nombre=" + nombre + ", codigo=" + codigo + ", numHoras=" + numHoras + "]";
 	}
-	
-	
-	
-	
-	
-	
+
 }
